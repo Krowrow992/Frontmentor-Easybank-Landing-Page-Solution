@@ -1,0 +1,11 @@
+@mixin mainWidth() {
+    max-width: 1050px;
+    margin: auto;
+    width: 85%;
+}
+
+@mixin mediaz() {
+    @media only screen and (max-width: 800px) {
+        @content;
+    }
+}
